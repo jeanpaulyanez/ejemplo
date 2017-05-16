@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+# python
 import sys
 
 if __name__ == "__main__":
