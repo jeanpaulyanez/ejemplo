@@ -16,4 +16,4 @@ def index(request):
     tipolist = TIPO_ORIGEN.objects.all()
     tmpl = loader.get_template("hola/index.html")
     cont = Context({'param': geolist, 'param2':tipolist, 'param3':'hola'})
-    return HttpResponse(tmpl.render(cont))
+    
